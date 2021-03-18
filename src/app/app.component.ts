@@ -6,5 +6,31 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'App-Tareas';
+  title = 'Aplicacion Tareas Angular';
+
+  employees = [
+    {'name':'Fazt',position:'manager'},
+    {'name':'Mario',position:'Programador'},
+    {'name':'Pedro',position:'practicante'},
+    {'name':'Alberto',position:'Diseñador'}
+  ];
+
+model:any = {}
+
+addEmployee():void{
+
+}
+
+deleteEmployee():void{
+  
+}
+
+editEmployee():void{
+  
+}
+
+updateEmployee():void{
+  
+}
+
 }
